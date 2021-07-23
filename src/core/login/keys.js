@@ -310,7 +310,7 @@ export async function createCurrencyWallet(
   opts: EdgeCreateCurrencyWalletOptions
 ): Promise<EdgeCurrencyWallet> {
   const { login, loginTree } = ai.props.state.accounts[accountId]
-
+  debugger;
   // Make the keys:
   const tools = await getCurrencyTools(ai, walletType)
   let keys
