@@ -313,6 +313,7 @@ export async function createCurrencyWallet(
 
   // Make the keys:
   const tools = await getCurrencyTools(ai, walletType)
+  debugger;
   let keys
   if (opts.keys != null) {
     keys = opts.keys
